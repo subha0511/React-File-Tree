@@ -1,2 +1,2 @@
-# React-Starter-Template
-Opinionated React Starter Template using Tailwind CSS and Vite
+# React File Tree
+React file tree build using tailwind css.
