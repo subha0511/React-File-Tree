@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .tree-item {
+    @apply select-none py-[0.3rem] px-2 hover:bg-gray-100 duration-200 rounded-md cursor-pointer flex items-center relative;
+  }
+
+  .tree-item.selected {
+    @apply bg-sky-200;
+  }
+
+  .tree-item-label {
+    @apply truncate grow-0;
+  }
+
+  .tree-menu {
+    @apply ml-auto shrink-0;
+  }
+
+  .input-item {
+    @apply select-none py-[0.3rem] px-2 hover:bg-gray-100 duration-200 rounded-md flex items-center;
+  }
+
+  .input-error {
+    caret-color: theme("colors.red.400");
+    color: theme("colors.red.400");
+  }
+}
